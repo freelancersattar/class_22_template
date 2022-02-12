@@ -1,0 +1,112 @@
+.header-logo img {
+    width: 60px;
+    height: auto;
+}
+.hero_section {
+    background-color: #f9f9ff;
+    padding: 20px 0;
+}
+.hero_content h4 {
+    padding-top: 100px !important;
+}
+.hero_content h1 {
+    font-size: 35px;
+    font-weight: 500;
+    padding: 20px 0;
+}
+.hero_img img {
+    height: 478px;
+    width: auto;
+}
+.about_content h4 {
+    padding-top: 50px;
+}
+.client_section {
+    background-color: #8490ff;
+    padding: px 0;
+}
+.price_section {
+    background-color: #f9f9ff;
+    padding: 30px 0;
+}
+.price_item {
+    background-color: #ffffff;
+    padding: 15px;
+    box-shadow: 0px 0px 27px -3px #8490ff52;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+.price_item .rounitem::after {
+    content: "";
+    position: absolute;
+    top: 17px;
+    left: 132px;
+    width: 89px;
+    height: 90px;
+    background-color: #ddd;
+    border-radius: 50%;
+    z-index: -1;
+}
+.rounitem h2 {
+    font-size: 50px;
+    line-height: 96px;
+}
+.buy-no {
+    margin: 30px 0 20px 0;
+    box-shadow: 0px 0px 27px 3px #8490ff52;
+    display: inline-block;
+}
+.btbbtnbtn {
+    background-color: #8490ff;
+    color: #fff;
+}
+/* user section */
+.user_section {
+    background-color: #fff;
+    padding: 20px 0;
+}
+.user_content {
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 20px -3px rgba(0, 0, 0, 0.308);
+    position: relative;
+}
+.user_content img {
+    position: absolute;
+    width: 80px;
+    height: auto;
+    top: -56px;
+    left: 13px;
+}
+
+.user_content a {
+    box-shadow: 0px 0px 20px -3px rgba(0, 0, 0, 0.308);
+    background-color: #fff;
+    color: #000;
+    margin: 15px;
+}
+.contect_section {
+    background-color: #f9f9ff;
+    padding: 30px 0;
+}
+.contect_form {
+    background-color: #fff;
+    box-shadow: 0px 0px 20px -3px rgba(0, 0, 0, 0.418);
+    padding: 20px;
+}
+.contect_form textarea {
+    border: 1px solid #ddd;
+    outline: none;
+}
+.submitbtm button {
+    background-color: #17a2b8 !important;
+}
+.contact_address {
+    margin-top: 100px !important;
+}
+.contact_address p {
+    margin-top: -10px;
+}
